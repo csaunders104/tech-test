@@ -56,5 +56,6 @@ def loop_dates(s3_bucket: str, s3_folder: str, date: date) -> None:
 
         date -= delta # check previous date
 
+
 class NoDaysRemaining(Exception):
     pass
